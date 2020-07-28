@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/ydfang/myrpackage.svg?branch=master)](https://travis-ci.com/ydfang/myrpackage)
 <!-- badges: end -->
 
 The goal of myrpackage is to …
