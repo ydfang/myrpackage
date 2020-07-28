@@ -2,8 +2,8 @@ Package: myrpackage
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Ydfang
+Maintainer: The package maintainer <ydfang@hotmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: GPL-3
@@ -12,3 +12,9 @@ LazyData: true
 RoxygenNote: 7.1.1
 URL: https://github.com/ydfang/myrpackage
 BugReports: https://github.com/ydfang/myrpackage/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    tibble
