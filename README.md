@@ -7,6 +7,8 @@
 
 [![Travis build
 status](https://travis-ci.com/ydfang/myrpackage.svg?branch=master)](https://travis-ci.com/ydfang/myrpackage)
+[![Codecov test
+coverage](https://codecov.io/gh/ydfang/myrpackage/branch/master/graph/badge.svg)](https://codecov.io/gh/ydfang/myrpackage?branch=master)
 <!-- badges: end -->
 
 The goal of myrpackage is to …
