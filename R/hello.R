@@ -1,0 +1,33 @@
+# Hello, world!
+#
+# This is an example function named 'hello'
+# which prints 'Hello, world!'.
+#
+# You can learn more about package authoring with RStudio at:
+#
+#   http://r-pkgs.had.co.nz/
+#
+# Some useful keyboard shortcuts for package authoring:
+#
+#   Install Package:           'Ctrl + Shift + B'
+#   Check Package:             'Ctrl + Shift + E'
+#   Test Package:              'Ctrl + Shift + T'
+
+#' YD Hello World Function
+#'
+#' @param x The name of the person to say hello
+#'
+#' @return The output from \code{\link{print}}
+#' @export
+#'
+#' @examples
+#' hello ("Yudong")
+#' \dontrun{
+#' hello("CRC")
+#' }
+hello <- function(x) {
+  print(paste("Hello,", x, ", this is the world!"))
+
+}
+
+
