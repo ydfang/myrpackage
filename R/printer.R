@@ -12,6 +12,6 @@
 #' printer(x=rnorm(5), r = rnorm(5))
 printer = function (r, x){
   x = tibble(x=x, r=r)
-  print(x)
+  # print(x)
   return (x)
   }

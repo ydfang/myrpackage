@@ -2,4 +2,6 @@
 
 export(hello)
 export(printer)
+export(sample_read)
+importFrom(readr,read_csv)
 importFrom(tibble,tibble)

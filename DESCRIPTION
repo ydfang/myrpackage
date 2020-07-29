@@ -15,7 +15,11 @@ BugReports: https://github.com/ydfang/myrpackage/issues
 Suggests: 
     knitr,
     rmarkdown,
-    covr
+    covr,
+    testthat
 VignetteBuilder: knitr
 Imports: 
-    tibble
+    tibble,
+    readr
+Depends: 
+    R (>= 2.10)
